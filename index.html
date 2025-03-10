@@ -16,11 +16,11 @@
     <!-- Navbar -->
     <nav class="p-5 bg-gray-800 shadow-md fixed w-full top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold">Dharmesh</h1>
+            <h1 class="text-2xl font-bold">Your Name</h1>
             <ul class="hidden md:flex space-x-6">
                 <li><a href="#about" class="hover:text-blue-400 transition">About</a></li>
                 <li><a href="#skills" class="hover:text-blue-400 transition">Skills</a></li>
-                <li><a href="#Achievements" class="hover:text-blue-400 transition">Achievements</a></li>
+                <li><a href="#projects" class="hover:text-blue-400 transition">Projects</a></li>
                 <li><a href="#contact" class="hover:text-blue-400 transition">Contact</a></li>
             </ul>
             <button onclick="toggleTheme()" class="p-2 rounded bg-gray-700 hover:bg-gray-600 transition">
@@ -31,56 +31,36 @@
 
     <!-- Hero Section -->
     <section class="h-screen flex flex-col justify-center items-center text-center px-5">
-        <h1 class="text-5xl font-bold animate-fade-in">
-            Hello, I'm <span class="text-blue-400">Dharmesh</span>
+        <img src="images/profile.jpg" alt="Your Profile Picture" class="w-40 h-40 rounded-full shadow-lg">
+        <h1 class="text-5xl font-bold mt-5 animate-fade-in">
+            Hello, I'm <span class="text-blue-400">Your Name</span>
         </h1>
         <p class="mt-3 text-lg text-gray-300 animate-fade-in delay-200">
             Web Developer | AI Enthusiast
         </p>
-        <a href="#Achievements" class="mt-6 px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition animate-fade-in delay-300">
+        <a href="#projects" class="mt-6 px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition animate-fade-in delay-300">
             View My Work
         </a>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 px-5 bg-gray-800 rounded-lg mx-5 lg:mx-40 text-center glassmorphism">
-        <h2 class="text-3xl font-bold">About Me</h2>
-        <p class="mt-4 text-gray-300">
-            I'm a passionate developer with expertise in web technologies.
-            I love creating stunning websites with modern design principles.
-        </p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 px-5">
-        <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold">Skills</h2>
-            <div class="mt-6 flex flex-wrap justify-center gap-4">
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">HTML</span>
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">CSS</span>
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">Tailwind CSS</span>
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">JavaScript</span>
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">SQL</span>
-                <span class="px-4 py-2 bg-gray-800 rounded shadow-md hover:scale-105 transition">Python</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Achievements Section -->
-    <section id="Achievements" class="py-20 px-5 bg-gray-800 rounded-lg mx-5 lg:mx-40 text-center">
-        <h2 class="text-3xl font-bold">Achievements</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-5 bg-gray-800 rounded-lg mx-5 lg:mx-40 text-center">
+        <h2 class="text-3xl font-bold">Projects</h2>
         <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="p-6 bg-gray-700 rounded shadow-md transform hover:scale-105 transition">
-                <h3 class="text-xl font-semibold">Frontend Development</h3>
-                <p class="mt-2 text-gray-300">Did Frontend Development Course From Great Learning</p>
+                <h3 class="text-xl font-semibold mt-3">Project 1</h3>
+                <p class="mt-2 text-gray-300">Description of your project.</p>
+                <a href="#" class="mt-3 inline-block text-blue-400">View Project</a>
             </div>
             <div class="p-6 bg-gray-700 rounded shadow-md transform hover:scale-105 transition">
-                <h3 class="text-xl font-semibold">Java Script</h3>
-                <p class="mt-2 text-gray-300">Learning JS and get Certified From many online Learning platform</p>
+                <h3 class="text-xl font-semibold mt-3">Project 2</h3>
+                <p class="mt-2 text-gray-300">Description of your project.</p>
+                <a href="#" class="mt-3 inline-block text-blue-400">View Project</a>
             </div>
             <div class="p-6 bg-gray-700 rounded shadow-md transform hover:scale-105 transition">
-                <h3 class="text-xl font-semibold">Intership in Web developing</h3>
-                <p class="mt-2 text-gray-300">Did Internship as a Web Developer in NR Crew</p>
+                <h3 class="text-xl font-semibold mt-3">Project 3</h3>
+                <p class="mt-2 text-gray-300">Description of your project.</p>
+                <a href="#" class="mt-3 inline-block text-blue-400">View Project</a>
             </div>
         </div>
     </section>
@@ -89,11 +69,11 @@
     <section id="contact" class="py-20 px-5">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold">Contact Me</h2>
+            <textarea placeholder="Your Message" class="w-full p-3 bg-gray-800 rounded mb-3 focus:ring-2 focus:ring-blue-500"></textarea>
             <p class="mt-4 text-gray-300">Feel free to reach out!</p>
             <form class="mt-6 max-w-md mx-auto">
-                <input type="text" placeholder="Dharmesh" class="w-full p-3 bg-gray-800 rounded mb-3 focus:ring-2 focus:ring-blue-500">
+                <input type="text" placeholder="Your Name" class="w-full p-3 bg-gray-800 rounded mb-3 focus:ring-2 focus:ring-blue-500">
                 <input type="email" placeholder="Your Email" class="w-full p-3 bg-gray-800 rounded mb-3 focus:ring-2 focus:ring-blue-500">
-                <textarea placeholder="Your Message" class="w-full p-3 bg-gray-800 rounded mb-3 focus:ring-2 focus:ring-blue-500"></textarea>
                 <button class="px-6 py-3 bg-blue-500 rounded hover:bg-blue-600 transition">Send</button>
             </form>
         </div>
@@ -101,7 +81,7 @@
 
     <!-- Footer -->
     <footer class="p-5 bg-gray-800 text-center">
-        <p>© 2025 Dharmesh. All rights reserved.</p>
+        <p>© 2025 Your Name. All rights reserved.</p>
     </footer>
 
     <!-- JavaScript for Theme Toggle -->
